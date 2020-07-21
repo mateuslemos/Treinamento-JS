@@ -1,0 +1,12 @@
+{
+  "name": "app_with_test_automatization",
+  "description": "Aplicação com teste automatizado.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "Mateus Santos Lemos",
+  "license": "ISC"
+}

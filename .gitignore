@@ -1,0 +1,9 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/JavaScript_Avancado/config
+/.vs/JavaScript_Avancado/v16
+/.vs
+/node_modules/.bin
+/node_modules
