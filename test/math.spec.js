@@ -1,5 +1,6 @@
 const assert = require('assert');
 const Math = require('../src/math.js');
+const expect = require('chai').expect;
 
 let value = 1;
 
@@ -31,7 +32,7 @@ describe('Math class', function(){
 
         let result = NUMBER2 / value;
 
-        assert.equal(result, 1);
+        expect(result).to.equal(1);
     });
 
     it.skip('Subtrai dois numeros', function () {
