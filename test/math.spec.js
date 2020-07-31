@@ -26,4 +26,13 @@ describe('Math class', function(){
 
         assert.equal(result, 2);
     });
+
+    it.skip('Subtrai dois numeros', function () {
+        let NUMBER1 = 1;
+        let NUMBER2 = 2;
+
+        let result = NUMBER2 - NUMBER1;
+
+        assert.equal(result, 1);
+    });
 });
