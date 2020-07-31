@@ -7,4 +7,23 @@ describe('Math class', function(){
       let result = math.sum(5, 5);
       assert(result, 10);
   });
+
+    it('Soma três números', function (done) {
+        const math = new Math();
+        let result = math.sumThreeNumbers(5, 3, 1, (value) => {
+            assert.equal(value, 9);
+            done();
+        });
+    });
+
+    it('Multiplicar dois números');
+
+    it.only('Dividir dois números', function () {
+        let NUMBER1 = 1;
+        let NUMBER2 = 2;
+
+        let result = NUMBER2 / NUMBER1;
+
+        assert.equal(result, 2);
+    });
 });
