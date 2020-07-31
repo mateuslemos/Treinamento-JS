@@ -16,9 +16,9 @@ describe('Math class', function(){
         });
     });
 
-    it('Multiplicar dois números');
+    it('Multiplica dois números');
 
-    it.only('Dividir dois números', function () {
+    it.only('Divide dois números', function () {
         let NUMBER1 = 1;
         let NUMBER2 = 2;
 
